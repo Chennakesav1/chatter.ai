@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="chat.css">
+    <script src="chat.js" defer></script>
+</head>
+<body>
+    <button class="chatbot-toggle">
+        <span class="fa fa-comment"></span>
+        <span  class="fa fa-times"></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span  class="fa fa-times"></span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incomming">
+                <span class="fa fa-cogs"></span>
+                <p>Hi! there 👋<br>How can I help you today? </p>
+        
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message...." required></textarea>
+            <span id="send-btn" class="fa fa-paper-plane-o"></span>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
